@@ -1,5 +1,5 @@
 /**
- * @license AngularJS v1.7.6-local+sha.68b6fd60f
+ * @license AngularJS v1.7.6-local+sha.08712cf30
  * (c) 2010-2018 Google, Inc. http://angularjs.org
  * License: MIT
  */
@@ -99,7 +99,7 @@ function isValidObjectMaxDepth(maxDepth) {
 function minErr(module, ErrorConstructor) {
   ErrorConstructor = ErrorConstructor || Error;
 
-  var url = 'https://errors.angularjs.org/1.7.6-local+sha.68b6fd60f/';
+  var url = 'https://errors.angularjs.org/1.7.6-local+sha.08712cf30/';
   var regex = url.replace('.', '\\.') + '[\\s\\S]*';
   var errRegExp = new RegExp(regex, 'g');
 
@@ -2782,7 +2782,7 @@ function toDebugString(obj, maxDepth) {
 var version = {
   // These placeholder strings will be replaced by grunt's `build` task.
   // They need to be double- or single-quoted.
-  full: '1.7.6-local+sha.68b6fd60f',
+  full: '1.7.6-local+sha.08712cf30',
   major: 1,
   minor: 7,
   dot: 6,
@@ -2936,7 +2936,7 @@ function publishExternalAPI(angular) {
       });
     }
   ])
-  .info({ angularVersion: '1.7.6-local+sha.68b6fd60f' });
+  .info({ angularVersion: '1.7.6-local+sha.08712cf30' });
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

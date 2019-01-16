@@ -9,11 +9,11 @@ angular.module('currentVersionData', [])
   "prerelease": [
     "local"
   ],
-  "build": "sha.68b6fd60f",
+  "build": "sha.08712cf30",
   "version": "1.7.6-local",
   "codeName": "snapshot",
   "isSnapshot": true,
-  "full": "1.7.6-local+sha.68b6fd60f",
+  "full": "1.7.6-local+sha.08712cf30",
   "branch": "master",
   "distTag": "next",
   "cdn": {
